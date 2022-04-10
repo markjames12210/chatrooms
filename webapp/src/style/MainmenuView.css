@@ -1,0 +1,54 @@
+.room-option-button-container {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.mainmenu-content {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slidingmenu-container {
+    margin: 10px;
+    transition: transform 0.6s ease;
+    width: 250%;
+    align-self: flex-start;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.optionmenu {
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.optionmenu:first-child {
+    margin-right: 20%;
+}
+
+.optionmenu:last-child {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.movetoleft {
+    transform: translateX(-60%);
+}
+
+.footer {
+    margin-top: 6px;
+    color: #343434;
+    font-weight: 300;
+}
